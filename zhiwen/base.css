@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 100px;
+}
+@media (min-width: 320px) {
+    html{
+        font-size:42.6667px;
+        /*100px*320/750*/
+    }
+}
+@media screen and (min-width: 360px){
+    html{
+        font-size: 48px;
+    }
+}
+@media screen and (min-width: 375px){
+    html{
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 414px){
+    html{
+        font-size: 55.2px;
+    }
+}
+body{
+    font-size: 12px;
+}
+img{
+    display: block;
+}
+@font-face {font-family: "iconfont";
+    src: url('font/iconfont.eot?t=1549547600847'); /* IE9 */
+    src: url('font/iconfont.eot?t=1549547600847#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAKMAAsAAAAABkQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcApMXwE2AiQDCAsGAAQgBYRtBzQbiQXIHpIkkCwLFAGkEgiYRjw83Y/+3HmzFYHrzZGA2yCRGIVQoh+o+fP7vzn2h/rrB5lpRD2pTP5tfnu3P1RSM0uJECE0GuCTeZ/Pczm9CXQg8wOdY3vQWJMm9QLqxYEU6B4YRVYogTeMXfACHxOoNaiXsja1sAx1MntVIM5C34a6QlSWWaFaqGw4mMW7atXpIQW8Rd+Pf6yoI6ko2C2bB5MejPzcdEqKq/LKdkCIgYCOV6DAPJCJ3cbsukrBuEq12Sqj4FiNwc/Nsgw84qhOwf46u74e9EPVM6k9zaMWEjzWVK1A96QfRbQevt3P+e9Pn3fTHr7efTzO8q5VRYvLx2G9R1M2zzfO2rVuve3iwQhAabqwQUFwfT7Xs9c68L+6MYMfNxubUbg0M8wPqvfhC/6FeuBANrS2O2VN3TiatJ6jrVYtSnCw1d9UW8eJi6FaxwR/lYEMhWrjZGbnUaHOAipVW0StOdPH67SRKkWuwax7gNDsG0mjbxSa/ZCZ/UWFTv+o1ByVqLUfnRfWmYywYVyiTegx55iFrsi466WGuHER/TKxZV4b8asoizDBTM0oF6YxQ7nEluLAt4g441KkbAo8h0kiWC5FhC5pAVHep+u86U2aK1JosEpCNoI8jOMYE3IJGR6MJw2Vzy9CvlLCJjv66spVSCqEszMmjTGAnDZlg/oe5ZXCAZ+FEI7hJCHFTIF5KJEQmLx5XgS5iCaYkM710Z1hfKhJ296S/t0JqGXbUzi7CrUXpYhCOyNRAgAAAA==') format('woff2'),
+    url('font/iconfont.woff?t=1549547600847') format('woff'),
+    url('font/iconfont.ttf?t=1549547600847') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('font/iconfont.svg?t=1549547600847#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zuojiantou:before {
+    content: "\e65a";
+}

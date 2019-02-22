@@ -1,0 +1,169 @@
+#box{
+    width: 100%;
+    height: 13.34rem;
+    position: relative;
+}
+
+#top{
+    width: 100%;
+    height: 4.4rem;
+}
+nav img{
+    width: 100%;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+#dingdan{
+    width: 7.02rem;
+    height: 0.9rem;
+    margin: 0 auto;
+}
+#dingdan img{
+    width: 0.21rem;
+    height: 0.38rem;
+    float:left;
+    margin-top: 0.25rem;
+}
+#dingdan h2{
+    display: block;
+    float: left;
+    font-weight: 100;
+    line-height: 0.88rem;
+    margin-left: 2.63rem;
+}
+/*dingdan*/
+#content{
+    width:100%;
+    height:3.1rem;
+}
+.zuoSahng{
+    width:1.7rem;
+    height: 0.52rem;
+    background-image: linear-gradient(to right,rgb(253,108,43),rgb(238,58,52));
+    font-size: 16px;
+    color: white;
+    line-height: 0.52rem;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+}
+.conNeirong{
+    width: 6.48rem;
+    height: 1.7rem;
+    margin: 0.2rem auto;
+}
+.Neirongzuo{
+    float: left;
+    width: 3rem;
+    height: 1.6rem;
+    background:white;
+    margin: 0 0.1rem;
+    box-shadow: 0 3px 21px 0,rgba(71,71,71,0.16);
+}
+.Neirongzuo img{
+    float: left;
+    margin: 0.23rem 0.03rem;
+    width: 1.2rem;
+    height: 1rem;
+    /*position: absolute;*/
+    /*top:2.4rem;*/
+    /*left:0.53rem;*/
+}
+.Neirongzuo p{
+    float:right;
+    color: rgba(0,0,0,0.8);
+    margin-top:0.48rem;
+    margin-right:0.6rem;
+}
+.Neirongzuo h3{
+    float:right;
+    color: rgba(0,0,0,0.55);
+    margin-right:0.05rem;
+}
+/*context*/
+#banner{
+    width: 100%;
+    height: 8.94rem;
+}
+.conLishi{
+    width: 100%;
+    height: 7.94rem;
+}
+.zailaiyidan{
+    position: relative;
+    background: white;
+    margin: 0.2rem auto;
+    width: 6.48rem;
+    height: 1.64rem;
+    box-shadow: 0 3px 40px 0 rgba(31,31,31,0.16);
+}
+.zailaiyidan img{
+    float: left;
+    width: 1.19rem;
+    height:1.04rem;
+    margin: 0.28rem 0 0.32rem 0.04rem;
+}
+.zailaiyidan h2{
+   padding:0.2rem 0 0.1rem 0.1rem;
+
+}
+.zailaiyidan p{
+    padding-left: 0.1rem;
+    color: rgba(0,0,0,0.5);
+}
+.zailaiyidan h3{
+    padding-left: 0.1rem;
+   color: rgba(0,0,0,0.6);
+}
+.youxia{
+    position: absolute;
+    top:1.02rem;
+    right: 0.15rem;
+    width:1.26rem;
+    height:0.38rem;
+    background-image: linear-gradient(to top,rgb(243,14,6),rgb(250,106,51));
+    border-radius: 17px;
+    color: white;
+    text-align: center;
+}
+/*conlishi*/
+.footer{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #cccccc;
+}
+.footerBox{
+    width: 1rem;
+    height: 100%;
+}
+.footerBox li.iconfont{
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+    margin-top: 0.02rem;
+
+}
+.footerWord{
+    font-size: 12px;
+    color: black ;
+    text-align: center;
+}
+.footerBox1{
+    width: 1rem;
+    height: 100%;
+    margin-top: 0.02rem;
+}
+.footerBox1 li.iconfont{
+    font-size: 30px;
+    text-align: center;
+
+}
+.footerWord1{
+    font-size: 12px;
+    text-align: center;
+}
+/*foot*/

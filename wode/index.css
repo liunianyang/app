@@ -1,0 +1,172 @@
+#box{
+    width: 100%;
+    height: 100%;
+    background:white;
+    position: relative;
+}
+nav img{
+    width: 7.5rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+#boxTop{
+    width: 100%;
+    height: 4.88rem;
+    background-image: linear-gradient(to bottom,rgb(237,52,45),rgb(250,106,51));
+}
+.boxPicture{
+    position: absolute;
+    top: 1.50rem;
+    left: 50%;
+    margin-left: -0.8rem;
+    width: 1.90rem;
+    height: 1.90rem;
+
+}
+.boxPicture img{
+    width: 1.90rem;
+    height: 1.90rem;
+}
+/*top*/
+.boxMy{
+    width: 3rem;
+    height: 0.94rem;
+    background: white;
+    position: absolute;
+    top: 4.36rem;
+    left: 50%;
+    margin-left: -1.5rem;
+    border-radius:0.47rem;
+    box-shadow: 0 3px 29px 0 rgba(245,84,48,0.31);
+}
+.boxMy p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(248,88,49);
+    line-height:0.94rem;
+}
+/*wode*/
+#boxContent{
+    width:100%;
+    height: 100%;
+    background: white;
+}
+.boxBox{
+    width: 7rem;
+    height:7.42rem;
+    padding: 0.76rem 0;
+    margin: 0 auto;
+}
+.conText1{
+    width: 7rem;
+    height: 1.1rem;
+    background: white;
+    box-shadow: 0 3px 16px 0 rgba(60,60,60,0.18);
+}
+/*.textFirst{*/
+    /*float: left;*/
+    /*width: 0.7rem;*/
+    /*height: 0.7rem;*/
+    /*background: lightcoral;*/
+    /*margin: 0.21rem 0 0.21rem 0.23rem;*/
+/*}*/
+.textFirst img{
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.1rem 0 0.21rem 0.1rem;
+}
+.textWord{
+    float: left;
+    width: 1.8rem;
+    height: 1.1rem;
+    font-size: 16px;
+    color: rgba(38,37,37,0.61);
+    line-height: 1.1rem;
+}
+.textSec{
+    float: right;
+    width: 1.12rem;
+    height: 0.44rem;
+    background-image: linear-gradient(to top,rgb(80,149,240),rgb(104,199,247));
+    margin: 0.33rem 0.4rem 0.33rem 0;
+    border-radius: 22px;
+}
+.textSec p{
+    color: white;
+    line-height: 0.44rem;
+    text-align: center;
+    font-size: 16px;
+}
+.conText2{
+    margin-top: 0.38rem;
+    width: 7rem;
+    height: 1.1rem;
+    background: white;
+    box-shadow: 0 3px 16px 0 rgba(60,60,60,0.18);
+}
+.textSec1{
+    float: right;
+    width: 1.12rem;
+    height: 0.44rem;
+    background-image: linear-gradient(to top,rgb(234,35,35),rgb(250,106,51));
+    margin: 0.33rem 0.4rem 0.33rem 0;
+    border-radius: 22px;
+}
+.textSec1 p{
+    color: white;
+    line-height: 0.44rem;
+    text-align: center;
+    font-size: 16px;
+}
+.textSec2{
+    float: right;
+    width: 1rem;
+    height: 0.53rem;
+    background: rgb(157,163,247);
+    margin: 0.32rem 0.45rem 0.25rem 0;
+    border-radius: 22px;
+}
+.textSec2 img{
+    width: 1rem;
+    height: 0.53rem;
+}
+/*内容*/
+.footer{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #cccccc;
+}
+.footerBox{
+    width: 1rem;
+    height: 100%;
+}
+.footerBox li.iconfont{
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+    margin-top: 0.02rem;
+
+}
+.footerWord{
+    font-size: 12px;
+    color: black ;
+    text-align: center;
+}
+.footerBox1{
+    width: 1rem;
+    height: 100%;
+    margin-top: 0.02rem;
+}
+.footerBox1 li.iconfont{
+    font-size: 30px;
+    text-align: center;
+
+}
+.footerWord1{
+    font-size: 12px;
+    text-align: center;
+}
+/*底部*/

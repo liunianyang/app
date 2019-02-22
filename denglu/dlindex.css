@@ -1,0 +1,185 @@
+.box{
+    width: 100%;
+    /*height: 13.34rem;*/
+    background: black;
+    position: relative;
+}
+nav img{
+    width: 7.5rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.boxTop{
+    width:100%;
+    height:  5.72rem;
+    background-image: linear-gradient(to right,rgb(250,106,51),rgb(237,52,45));
+}
+.boxContent{
+   position: absolute;
+    top: 1.32rem;
+    left: 50%;
+    margin-left: -1.4rem;
+    width: 2.8rem;
+    height: 2.78rem;
+    /*padding-top: 0.9rem;*/
+}
+.boxPic{
+    width: 2.2rem;
+    height: 1.86rem;
+    margin: 0 auto;
+}
+.boxPic img{
+    width: 2.01rem;
+    height: 1.83rem;
+    margin: 0 auto;
+}
+.boxYw{
+    width: 2.64rem;
+    height: 0.26rem;
+    margin: 0.1rem auto;
+    font-size: 12px;
+    color: rgb(240,142,47);
+    text-align: center;
+}
+.boxText{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+/*头部*/
+#banner{
+    width: 7rem;
+    height: 4.16rem;
+    background:rgb(255,255,255);
+    position: absolute;
+    top: 4.15rem;
+    left:50%;
+    margin-left: -3.5rem;
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,0.11) ;
+}
+.bannercontent{
+    width: 6.35rem;
+    height: 3.8rem;
+    margin: 0.17rem auto;
+}
+.contentSjh{
+    width: 100%;
+    height: 1.3rem;
+    border-bottom: 1px solid rgba(0,0,0,0.18);
+    position: relative;
+}
+.iconItem{
+    width: 0.48rem;
+    height: 0.7rem;
+    background: white;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+}
+.iconItem img{
+    width: 0.48rem;
+    height: 0.7rem;
+}
+.textIcom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 5.7rem;
+    height: 0.7rem;
+}
+.input{
+    width:4rem;
+    height:0.6rem;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 0;
+    float: left;
+}
+.textRight{
+    display: block;
+    width: 1.6rem;
+    height: 0.6rem;
+    background-image: linear-gradient(to top,rgb(241,68,47),rgb(250,106,51));
+    float: right;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.6rem;
+    text-align: center;
+    border-radius:5%;
+}
+.word{
+    width: 100%;
+    height: 0.4rem;
+    margin: 0.1rem auto;
+}
+.zhuCe{
+    display: block;
+    width: 1rem;
+    height: 0.3rem;
+    background: white;
+    font-size: 14px;
+    color: rgba(0,0,0,0.61);
+    float: left;
+    padding: 0 0.2rem;
+}
+.wangJi{
+    width: 1.61rem;
+    height: 0.3rem;
+    background: white;
+    font-size: 14px;
+    color: rgba(0,0,0,0.61);
+    float:right;
+    padding: 0 0.2rem;
+}
+/*banner*/
+.button{
+    width: 1.96rem;
+    height: 0.73rem;
+    position: absolute;
+    top: 7.95rem;
+    left:50%;
+    margin-left: -0.88rem;
+    border-radius:37px;
+    font-size: 16px;
+    color: white;
+    line-height: 0.73rem;
+    text-align: center;
+    background-image: linear-gradient(to top,rgb(241,68,47),rgb(245,86,49));
+}
+/*注册*/
+.bottom{
+    width: 100%;
+    /*height:7.62rem;*/
+    background: white;
+}
+.bottemtext{
+    height: 0.4rem;
+    width: 7rem;
+    position: absolute;
+    top:11.6rem;
+    left: 50%;
+    margin-left: -3.5rem;
+}
+.bottemtext p{
+    font-size: 14px;
+    color: rgba(0,0,0,0.54);
+    text-align: center;
+}
+.bottomImage{
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    margin-left: -1.9rem;
+    width: 3.8rem;
+    height: 0.8rem;
+
+}
+.bottomImage img{
+    width: 0.78rem;
+    height: 0.78rem;
+    display: inline-block;
+}
+/*bottom*/

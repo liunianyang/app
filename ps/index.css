@@ -1,0 +1,342 @@
+.container{
+    width:100%;
+    height:100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.89rem;
+    background-image: linear-gradient(to right,rgb(226,54,63),rgb(248,134,77));
+}
+/*.topbar:before{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 0.21rem;*/
+/*}*/
+.topbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.searchBox{
+    width: 4.83rem;
+    height: 0.44rem;
+    background: white;
+    border-radius:0.22rem;
+    margin-left: 0.95rem;
+    float: right;
+}
+.search{
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+    margin-top: 0.05rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.input{
+    width: 3.8rem;
+    height: 0.25rem;
+    float: left;
+    border: none;
+    margin-top: 0.07rem;
+}
+.scanBox{
+    width: 0.57rem;
+    height: 0.57rem;
+    background: white;
+    border-radius: 0.285rem;
+    margin-left: 0.25rem;
+}
+.scanBox i.iconfont{
+    font-size: 14px;
+}
+.dingWei {
+    width: 0.3rem;
+    height: 0.4rem;
+    /*margin: 0  auto; */
+    float: left;
+    padding-left: 0.05rem;
+}
+.iconfont{
+    color: darkorange;
+}
+.taiyuan{
+    width: 0.60rem;
+    height: 0.4rem;
+    float: left;
+    font-size: 14px;
+    color: white;
+}
+/*header*/
+#banner{
+    width: 7rem;
+    height: 3.1rem;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.55) ;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    position: relative;
+}
+.imagesBox{
+    width: 7rem;
+    height: 3.3rem;
+    background: lightblue;
+    margin: 0 auto;
+    position: relative;
+}
+.bannerItem{
+    width:7rem;
+    height: 3.3rem;
+    margin: 0 auto;
+    background: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bannerItem img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imagesBox li.active{
+    z-index: 1;
+}
+.pagesBox{
+    width: 1rem;
+    height: 0.14rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.65rem;
+    margin: 0 auto;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pagesYuan{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: white;
+    border-radius: 0.06rem;
+}
+.active{
+    background: orange;
+}
+#catagory{
+    width: 7rem;
+    height: 4.35rem;
+    margin: 0.4rem auto 0;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+.catagoryBox{
+    width: 1.5rem;
+    height: 1.8rem;
+    background: white;
+    display: block;
+}
+.catagoryBox img{
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.catagoryBox p{
+    width: 0.48rem;
+    height: 0.4rem;
+    font-size: 0.18rem;
+    text-align: center;
+    margin: 0.1rem auto 0;
+    color: rgba(0,0,0,0.75);
+}
+/*banneer*/
+.middle{
+    width: 7.2rem;
+    height: 2.72rem;
+    margin: 0 auto;
+}
+.middletop{
+    width: 1.78rem;
+    height: 0.4rem;
+    background: rgb(248,134,77);
+    margin: 0 auto;
+}
+.middletop p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+.middletext{
+    width: 6.8rem;
+    height: 2rem;
+    background: white;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+}
+.middletext a{
+    width: 3.37rem;
+    height: 1.68rem;
+    display: block;
+    float: left;
+}
+.meishiLeft{
+    width: 2.28rem;
+    height: 100%;
+    float: left;
+}
+.meishiLeft img{
+    width: 2.331rem;
+    height: 1.55rem;
+}
+.meishiRight{
+    width:auto;
+    height:100%;
+    float: right;
+}
+.ziti1{
+    font-size: 13px;
+    color:rgb(0,0,0);
+    margin:0.1rem 0;
+}
+.ziti2{
+    font-size: 12px;
+    color:rgb(1,1,1);
+    margin-bottom: 0.08rem;
+}
+.ziti3{
+    font-size: 14px;
+    color:rgb(238,2,0)
+}
+/*关注*/
+#footer{
+    width:7.2rem;
+    height: 2rem;
+    background: chocolate;
+    margin: 0.1rem auto;
+}
+#focontent{
+    width:7.2rem;
+    height: 2rem;
+    background: white;
+    margin: 0 auto;
+    float: left;
+}
+#focontent img{
+    width: 7.2rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+/*底部*/
+#tuijian{
+    width:7.2rem;
+    height:7.8rem;
+    margin: 0.1rem auto;
+    margin-bottom: 1.1rem;
+}
+.tuijisntop{
+    width: 1.78rem;
+    height: 0.43rem;
+    background: rgb(248,134,77);
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.tuijianContent{
+    width: 6.8rem;
+    height: 2.2rem;
+    background: white;
+    margin: 0.2rem auto;
+    box-shadow: 0 0 10px 5px rgba(1,1,1,0.1);
+}
+.tuijianContent a{
+}
+.tuijianLeft{
+    width: 3.17rem;
+    height: 1.8rem;
+    margin: 0.2rem 0.1rem;
+    float: left;
+}
+.tuijianLeft img{
+    width: 3.17rem;
+    height: 100%;
+}
+.tuijianRight{
+    width: 3.2rem;
+    height: 1.8rem;
+    float: left;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.2rem;
+}
+.biandang1{
+    font-size: 15px;
+    color: black;
+}
+.biandang2{
+    font-size: 12px;
+    color: rgba(163,163,163,0.7) ;
+    margin-top: -0.1rem;
+}
+.biandang3{
+    font-size: 12px;
+    color: rgba(0,0,0,0.55) ;
+}
+.tuijianBottom{
+    width: 1.32rem;
+    height: 0.35rem;
+    border: 0.01rem solid rgb(250,11,28);
+    border-radius: 10%;
+    margin-top: 0.15rem;
+    margin-right: 0.1rem;
+    text-align: center;
+    color: rgb(250,11,28);
+    float: left;
+}
+/*推荐*/
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: white;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #cccccc;
+}
+.footerBox{
+    width: 1rem;
+    height: 100%;
+}
+.footerBox li.iconfont{
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+    margin-top: 0.02rem;
+
+}
+.footerWord{
+    font-size: 12px;
+    color: black ;
+    text-align: center;
+}
+.footerBox1{
+    width: 1rem;
+    height: 100%;
+    margin-top: 0.02rem;
+}
+.footerBox1 li.iconfont{
+    font-size: 30px;
+    text-align: center;
+
+}
+.footerWord1{
+    font-size: 12px;
+    color:rgb(248,134,77) ;
+    text-align: center;
+}
+/*底部*/
